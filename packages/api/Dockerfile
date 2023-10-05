@@ -1,4 +1,4 @@
-FROM node:18.16-alpine as builder
+FROM node:18.16-alpine@sha256:d5b2a7869a4016b1847986ea52098fa404421e44281bb7615a9e3615e07f37fb as builder
 
 WORKDIR /app
 
@@ -32,7 +32,7 @@ RUN rm -rf /app/packages/api/node_modules
 RUN rm -rf /app/node_modules
 RUN yarn install --pure-lockfile --production
 
-FROM node:18.16-alpine as runner
+FROM node:18.16-alpine@sha256:d5b2a7869a4016b1847986ea52098fa404421e44281bb7615a9e3615e07f37fb as runner
 
 WORKDIR /app
 

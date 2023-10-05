@@ -6,3 +6,173 @@ updates:
       interval: "daily"
     allow:
       - dependency-type: "production"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /apple/gql-server
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /imageproxy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/api
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/api
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/appreader
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/content-fetch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/content-fetch
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/content-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/cypress
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/db
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/db
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/import-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/import-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/inbound-email-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/inbound-email-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/pdf-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/pdf-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/puppeteer-parse
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/readabilityjs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/rss-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/rss-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/rule-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/rule-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/text-to-speech
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/text-to-speech
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/thumbnail-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/thumbnail-handler
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /packages/web
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/web
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /pkg/admin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /pkg/admin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /pkg/extension
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /self-hosting
+    schedule:
+      interval: daily
